@@ -20,7 +20,7 @@ if [[ "$free" -le 512 ]]; then
         file=/tmp/TopProccessesConsumingMemory.txt
         
         # send email if system memory is running low
-        echo -e "Warning, server memory is running low!\n\nFree memory: $free MB" | mutt -a "$file" -s "$subject"  -b "$to"
+        echo -e "Warning, Computer memory is running low!\n\nFree memory: $free MB" | mutt -a "$file" -s "$subject"  -b "$to"
 fi
 # Exit 
 exit 0

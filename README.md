@@ -19,6 +19,8 @@ set smtp_pass="Password"
 ## optionl 
 ### edit crontab
   '* */3 * * * bash alaert.sh'
+ 
+ 
 this will chek ram evry 3 hours 
 
 Done

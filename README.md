@@ -6,7 +6,6 @@ sudo apt install mutt
 make file call .muttrc 
 add fallowing line and edit it 
 
-##############################
 set from="youremail@gmail.com" 
 
 set realname="name "
@@ -14,7 +13,6 @@ set realname="name "
 set smtp_url="smtp://youremail@smtp.gmail.com:587/"
 
 set smtp_pass="Password"
-##############################
 
 ## optionl 
 ### edit crontab to run script evre 30 mint 
